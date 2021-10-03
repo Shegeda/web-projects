@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(90deg, #e5d644 1%, #4179b4 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 600px;
+  background-image: url(https://traveler.marriott.com/wp-content/uploads/2019/04/GI_168953428_BostonMarathon.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.square {
+  width: 40px;
+  height: 40px;
+  /* background: #a9fcfc; */
+  background-image: url(https://png.pngtree.com/png-vector/20190225/ourmid/pngtree-question-mark-vector-icon-png-image_702552.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  /* margin: 2px; */
+  border: 0.5px solid rgba(151, 151, 151, 0.2);
+  /* box-shadow: 0 0 2px #000; */
+  transition: 2s ease;
+  border-radius: 10px;
+}
+
+.square:hover {
+  transition-duration: 0s;
+}
